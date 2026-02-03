@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Browser – Encyclopedia</title>
+  <style>
+    body {
+      font-family: serif;
+      background: #f6f6f6;
+      color: #202122;
+      padding: 40px;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border: 1px solid #a2a9b1;
+    }
+
+    h1 {
+      font-size: 32px;
+      border-bottom: 1px solid #a2a9b1;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .infobox {
+      float: right;
+      width: 260px;
+      border: 1px solid #a2a9b1;
+      padding: 10px;
+      margin-left: 20px;
+      font-size: 14px;
+      background: #f8f9fa;
+    }
+
+    .download {
+      margin-top: 40px;
+      padding: 12px;
+      background: #eaf3ff;
+      border: 1px solid #0645ad;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <h1>Web browser</h1>
+
+  <div class="infobox">
+    <strong>Type</strong><br>
+    Application software<br><br>
+    <strong>Purpose</strong><br>
+    Accessing information
+  </div>
+
+  <p>
+    A <strong>web browser</strong> is a software application for accessing information
+    on the World Wide Web. Documents are identified by URLs and may contain text,
+    images, video, and other multimedia.
+  </p>
+
+  <p>
+    Common examples include
+    <a onclick="openReal()">Web browser</a>,
+    email clients, and file viewers.
+  </p>
+
+  <div class="download">
+    <a href="./launcher.html" download>
+      Download Offline Reference File
+    </a>
+  </div>
+
+</div>
+
+<script>
+  function openReal() {
+    // THIS is where you put the real site
+    window.open("https://chimeracs.github.io/onyx/", "_blank");
+  }
+</script>
+
+</body>
+</html>
